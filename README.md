@@ -2,15 +2,15 @@
 # Ex.No:6 Design an android application Send SMS using Intent.
 
 
-## AIM:
+## AIM
 
 To create and design an android application Send SMS using Intent using Android Studio.
 
-## EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED
 
 Android Studio(Latest Version)
 
-## ALGORITHM:
+## ALGORITHM
 
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
@@ -26,13 +26,13 @@ Step 6: Send SMS and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## PROGRAM
 ```
 Program to create and design an android application Send SMS using Intent.
 Developed by: Sudharsanam R K
 Registeration Number : 212222040163
 ```
-## MainActivity.java
+## In MainActivity.java
 ```java
 package com.example.sendsms;
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## activity_main.xml
+## In activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## AndroidManifest.xml
+## In AndroidManifest.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
 </manifest>
 ```
 
-## themes.xml 
+## In themes.xml 
 ```xml
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Base.Theme.SendSMS" parent="Theme.Material3.DayNight.NoActionBar">
@@ -180,8 +180,6 @@ public class MainActivity extends AppCompatActivity {
 ## OUTPUT
 ![login_page](https://github.com/SudharsanamRK/sendsms/assets/115523484/b4dd2cc5-64f9-4f0e-825e-a7bf583bf742)
 ![o/p](https://github.com/SudharsanamRK/sendsms/assets/115523484/8c821b48-4749-49ab-842c-6088af86ac02)
-
-
 
 
 ## RESULT
